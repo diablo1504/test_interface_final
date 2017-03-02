@@ -274,6 +274,7 @@ class TestDictValueFormatFunctions(unittest.TestCase):
 #             self.assertEqual(r["sysVersionCode"], "16061320")
 
 if __name__ == '__main__':
+    # print 'hahaha'
     fname = "APIcase222.xlsx"
     bk = xlrd.open_workbook(fname)
     sheet_list = bk.sheets()
